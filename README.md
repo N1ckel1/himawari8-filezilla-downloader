@@ -53,10 +53,13 @@ NC_Hnn_YYYYMMDD_hhmm_Rbb_FLDK.xxxxx_yyyyy.nc
 
 #### 3. 使用 FileZilla 筛选文件
 
-1. 连接 FTP 后，点击菜单栏：**查看 → 目录列表过滤器**      ![](figure3.png)
-2. 点击 **编辑过滤器规则**     ![](figure4.png)
-3. 添加自定义通配符规则（支持 `*`）：     ![](figure5.png)
-
+1. 连接 FTP 后，点击菜单栏：**查看 → 目录列表过滤器**      
+![](figure3.png)    
+2. 点击 **编辑过滤器规则**     
+![](figure4.png)    
+3. 添加自定义通配符规则（支持 `*`）：      
+![](figure5.png)    
+![](figure6.png)       
 | 需求 | 过滤规则 |
 |------|---------|
 | 仅整点数据（如 00:00, 01:00） | `*_0000_*` |
@@ -65,9 +68,12 @@ NC_Hnn_YYYYMMDD_hhmm_Rbb_FLDK.xxxxx_yyyyy.nc
 | 仅 2023 年 7 月数据 | `*202307*` |
 | 组合条件（整点 + Band 13 + 2 km） | `*2023*_0000_*R13*6001*` |
 
-> 💡 提示：规则区分大小写，建议使用小写通配以提高兼容性。
+> 💡 提示：规则区分大小写
 
 ---
+## 卫星云图提取
+- [ ] 葵花8、9号卫星数据处理及可视化](https://blog.csdn.net/qq_43352337/article/details/139792080)
+- [ ] 见文件image_process.py
 
 ## 注意事项
 
@@ -76,12 +82,12 @@ NC_Hnn_YYYYMMDD_hhmm_Rbb_FLDK.xxxxx_yyyyy.nc
 
 2. **典型目录结构**
 
-
+![](figure7.png)
 
 ---
 
 ## 附件说明（待补充）
 
-- [ ] Himawari-8 AHI 16 波段响应函数表
-- [ ] 辐射定标系数文件（`Himawari-8_HSD_table.xlsx`）
-- [ ] Python 自动下载与预处理脚本
+- [ ] HS_D_users_guide_en_v12.pdf
+- [ ] READMEfirst_P-Ttree_en.txt
+- [ ] README_HimawariNetCDF_en.txt
