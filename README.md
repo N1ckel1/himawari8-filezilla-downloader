@@ -53,13 +53,27 @@ NC_Hnn_YYYYMMDD_hhmm_Rbb_FLDK.xxxxx_yyyyy.nc
 
 #### 3. 使用 FileZilla 筛选文件
 
-1. 连接 FTP 后，点击菜单栏：**查看 → 目录列表过滤器**      
-![](figure3.png)    
-2. 点击 **编辑过滤器规则**     
-![](figure4.png)    
-3. 添加自定义通配符规则（支持 `*`）：      
-![](figure5.png)    
-![](figure6.png)       
+1. 连接 FTP 后，点击菜单栏：**查看 → 目录列表过滤器**
+
+    
+![](figure3.png)
+
+
+2. 点击 **编辑过滤器规则**
+
+    
+![](figure4.png)
+
+
+3. 添加自定义通配符规则（支持 `*`）：
+
+        
+![](figure5.png)
+
+
+![](figure6.png)   
+
+
 | 需求 | 过滤规则 |      
 |------|---------|      
 | 仅整点数据（如 00:00, 01:00） | `*_0000_*` |     
@@ -86,7 +100,7 @@ NC_Hnn_YYYYMMDD_hhmm_Rbb_FLDK.xxxxx_yyyyy.nc
 
 ---
 
-## 附件说明
+## 附件
 
 -  HS_D_users_guide_en_v12.pdf
 -  READMEfirst_P-Ttree_en.txt
