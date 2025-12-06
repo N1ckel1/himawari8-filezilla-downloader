@@ -28,10 +28,10 @@
 
 #### 1. 问题描述
 原始数据按 10 分钟间隔存档，文件数量庞大。通常我们仅需特定时间、特定波段或特定分辨率的数据。
-
+![](figure2.png)
 #### 2. 文件命名规则
 
-Himawari-8 L1B NetCDF 文件命名格式如下：      
+例如：Full-disk文件命名格式如下：        
 NC_Hnn_YYYYMMDD_hhmm_Rbb_FLDK.xxxxx_yyyyy.nc
 
 各字段含义说明：
