@@ -65,7 +65,7 @@ NC_Hnn_YYYYMMDD_hhmm_Rbb_FLDK.xxxxx_yyyyy.nc
 ![](figure4.png)
 
 
-3. 添加自定义通配符规则（支持 `*`）：
+3. 添加自定义通配符规则，如：
 
         
 ![](figure5.png)
@@ -91,7 +91,7 @@ NC_Hnn_YYYYMMDD_hhmm_Rbb_FLDK.xxxxx_yyyyy.nc
 
 ## 注意事项
 
-1. **时间均为 UTC（协调世界时）**  
+1. **时间均为 UTC（格林威治时间）**  
    例如：北京时间 = UTC + 8，因此 `0000 UTC` 对应北京时间 `08:00`。
 
 2. **典型目录结构**
