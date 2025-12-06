@@ -14,7 +14,7 @@
 
 ## 卫星覆盖区域介绍
 
-![Himawari-8 全盘观测范围](https://i-blog.csdnimg.cn/blog_migrate/a60551a24c4f191561ca00fb9041fa9c.png)
+![Himawari-8 全盘观测范围](figure1.png)
 
 > Himawari-8/9 定位于东经 140.7° 的地球静止轨道，主要覆盖 **东亚、东南亚、西太平洋及澳大利亚北部**，观测范围约为 **60°S – 60°N，80°E – 200°E**。
 
