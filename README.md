@@ -72,8 +72,8 @@ NC_Hnn_YYYYMMDD_hhmm_Rbb_FLDK.xxxxx_yyyyy.nc
 
 ---
 ## 卫星云图提取
-- [ ] 葵花8、9号卫星数据处理及可视化](https://blog.csdn.net/qq_43352337/article/details/139792080)
-- [ ] 见文件image_process.py
+-  葵花8、9号卫星数据处理及可视化](https://blog.csdn.net/qq_43352337/article/details/139792080)
+-  见文件image_process.py
 
 ## 注意事项
 
@@ -88,6 +88,6 @@ NC_Hnn_YYYYMMDD_hhmm_Rbb_FLDK.xxxxx_yyyyy.nc
 
 ## 附件说明（待补充）
 
-- [ ] HS_D_users_guide_en_v12.pdf
-- [ ] READMEfirst_P-Ttree_en.txt
-- [ ] README_HimawariNetCDF_en.txt
+-  HS_D_users_guide_en_v12.pdf
+-  READMEfirst_P-Ttree_en.txt
+-  README_HimawariNetCDF_en.txt
